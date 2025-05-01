@@ -19,13 +19,17 @@ Este script automatiza un ataque de fuerza bruta contra el servicio XML-RPC de W
 ## Requisitos
 
 - `bash`
-- `curl`
+- `wget`
 - Acceso a un WordPress con XML-RPC habilitado
 - Diccionario de contraseñas (`/usr/share/wordlists/rockyou.txt` o equivalente)
 
 ---
+## Descarga
 
-## ⚙️ Uso
+  ```bash
+  wget https://raw.githubusercontent.com/saulcastro-sec/Herramientas/refs/heads/main/xmlrpc_brute/xmlrpc_bruteforce.sh
+  ```
+## Uso
 
 1. Abre el script y modifica esta línea con la dirección IP o dominio de tu WordPress de prueba:
 
