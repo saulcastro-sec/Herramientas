@@ -27,3 +27,6 @@ SwiftScanner es una herramienta de automatización para escaneos de red con nmap
 
 ## Descarga
 
+```
+wget https://raw.githubusercontent.com/saulcastro-sec/Herramientas/refs/heads/main/SwiftScanner/swiftscanner.sh
+```
